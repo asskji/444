@@ -6,14 +6,17 @@
     text-decoration: none;
     outline: none;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
    }
 .container{
     width: 1280px;
     margin: 0 auto;
 }
 h1,h2,h3{
-  font-family: "Poppins", serif;
+  font-family: "Machérie", serif;
+}
+@font-face {
+  font-family: 'Machérie';
+  src: url('Machérie.woff2') format('woff2'), url('Machérie.woff') format('woff');
 }
 p{
   font-family: 'Lora', serif;
